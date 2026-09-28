@@ -1,0 +1,6 @@
+{
+	"low count" : *Low model count for this bracket : Integer*
+	"high count" : *High model count for this bracket : Integer*
+	"Supply cost" : *amount of Supply unit takes up in this bracket : Integer*
+	"subfaction" : *Subfactions this unit can be taken in, NULL means it can be taken in any : List[String] | NULL*
+}

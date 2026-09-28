@@ -1,0 +1,7 @@
+{
+	"Name" : *Ability Name : String* ,
+	"Type" : *Ability Type : String (Active or Passive)*,
+	"cost" : *Ability CP/BM/PE cost : integer | NULL (NULL when this Ability is a tactical card Ability)*,
+	"effect" : *Ability effect : String*
+				
+}

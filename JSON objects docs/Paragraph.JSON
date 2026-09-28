@@ -1,0 +1,5 @@
+{
+	"paragraph" : *paragraph number : float*,
+	"tags" : *List of tags : List[string]*,
+	"paragraph" : *paragraph text : string*
+}

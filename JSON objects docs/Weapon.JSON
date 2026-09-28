@@ -1,0 +1,11 @@
+{
+	"Name" : *Weapon name : String*,
+	"Range" : *Range stat : integer | String (E)*,
+	"Target" : *Target options : String (Ground, Air or All)*,
+	"RoA" : *Rate of Attack : integer*,
+	"hit" : *hit stat : integer*,
+	"Surge type" : *Surge type : String | NULL*, 
+	"S Dice" : *Surge dye : String | NULL*,
+	"damage" : *Damage stat : integer*,
+	"keywords" : *keywords : List[String]*
+}

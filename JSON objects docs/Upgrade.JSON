@@ -1,0 +1,7 @@
+{
+	"Name" : *Ability name : String*,
+	"Type" : *Ability type : String (Ability, Weapon)*,
+	"replace" : *Weapon this upgrade replaces : String | NULL*
+	"Cost" : *Mineral cost of this upgrade : integer*
+	"Content" : *Upgrade effect : Ability Object | Weapon Object*
+}

@@ -1,0 +1,34 @@
+{
+	"name" : *Unit name : String*,
+	"speed" : *Speed stat : String (in format as shown on unit card) | NULL,
+	"Armour" : *Armour stat : integer | NULL*,
+	"Evade" : *Evade stat : integer | NULL*,
+	"HP" : *HP stat : integer | NULL*,
+	"Size" : *Size stat : integer | NULL* ,
+	"Supply" : *Supply brackets : List[Supply bracket objects],
+	"Abilities" : {
+					"Any Phase" : *Abilities usable in any phase : List[Ability objects]*,
+					"Movement Phase" : *Abilities usable in the Movement Phase : List[Ability objects]*,
+					"Assault Phase" : *Abilities usable in the Assault Phase : List[Ability objects]*,
+					"Compbat Phase" : *Abilities usable in the combat phase : List[Ability objects]*
+	},
+	"Weapons" : {
+					"Assault Phase" : *Weapons usable in the Assault Phase : List[Weapon objects]*,
+					"Combat phase" : *Weapons usable in the combat Phase : List[Weapon objects]*,
+	},
+	"Upgrades" : {
+					"Any Phase" : *Upgrades usable in Any Phase : List[Upgrade objects]*,
+					"Movement Phase" : *Upgrades usable in the Movement Phase : List[Upgrade objects]*,
+					"Assault Phase" : *Upgrades usable in the Assault Phase : List[Upgrade objects]*,
+					"Compbat Phase" : *Upgrades usable in the combat phase : List[Upgrade objects
+				},
+	"Slot" : *Slot type of this unit : String | NULL*,
+	"Base size" : *Base size of the models in this unit : integer (in mm)*,
+	"cost small" : *mineral cost for a small unit : integer*,
+	"cost large" : *mineral cost for a large unit : integer | NULL*,
+	"tags" : *tags associated with this model : List(String)*,
+	"image front" : *image link to card front (stat side) : String*,
+	"image back" : *image link to card back (upgrade side) : String*,
+	"race" : *faction that this unit can be taken in : String (Terran | Zerg | Protoss)*,
+	"subfaction" : *Subfactions this unit can be taken in, NULL means it can be taken in any : List[String] | NULL*
+}
