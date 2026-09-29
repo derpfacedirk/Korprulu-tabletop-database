@@ -1,0 +1,11 @@
+{
+	"name" : *Name of the mission card : String*
+	"Engement size" : *Point level this card is made for : String (Skirmish | Standard | Grand Offensive)
+	"starting supply" : *The starting supply for this mission : integer*
+	"supply increase" : *The amount the supply cap goes up each round : integer*
+	"Game Length" : *The amount of rounds this mission lasts : integer*
+	"Mission parameters" : *the text in the mission parameter section of the mission card : String*
+	"Scoring conditions" : *the text in the scoring conditions section of the mission card : String*
+	"Additional conditions" : *the text in the Additional conditions section of the mission card : String*
+	"image" : *Image link of the card*
+}

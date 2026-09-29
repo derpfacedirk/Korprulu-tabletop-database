@@ -1,0 +1,5 @@
+{
+	"cardinality" : *Whether the zone of influence is shown horizontal, vertical or angled : String (Horizontal | Vertical | Angled)
+	"Start coord" : *The amount of inches away from the bottom or the left of the card this zone of influence begins, when angled this coord shows the horizontal coordinate : integer*
+	"End coord" : *The amount of inches away from the bottom or the left of the card this zone of influence ends, when angled this coord shows the vertical coordinate : integer*
+}

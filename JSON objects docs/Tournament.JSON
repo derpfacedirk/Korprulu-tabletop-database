@@ -1,0 +1,4 @@
+{
+	"Tournament_ID" : *ID for this tournament : integer*
+	"Games played" : *IDs of the games played in this tournament : List[integer]*
+}

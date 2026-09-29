@@ -1,0 +1,10 @@
+{
+	"list_ID" : *list ID : integer*
+	"race" : *faction that this unit can be taken in : String (Terran | Zerg | Protoss)*,
+	"faction card" : *Faction card this list uses : String*
+	"tactics cards" : *Tactical cards this list uses : List[String]*
+	"minerals" : *the minerals used by this armylist : integer*
+	"units" : *List of units purchased : List[bought-unit objects]*
+	"Mission cards" : *The two mission cards selected for this armylist : String*	
+	"Deployment cards" : *The two Deployment cards selected for this armylist : String*
+}

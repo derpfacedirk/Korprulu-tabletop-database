@@ -1,0 +1,5 @@
+{
+	"Unit" : *The name of the unit bought : String*
+	"Upgrades" : *List of bought upgrade names : List[String]*
+	"size" : *The size of the unit bought, if the unit only has one option this field will say "small" : String (Large | Small)*
+}
