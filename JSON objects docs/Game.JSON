@@ -1,0 +1,8 @@
+{
+	"game_ID" : *Game ID : integer"
+	"list_1" : *ID of the list used by player 1 : integer*
+	"list_2" : *ID of the list used by player 2 : integer*
+	"points limit" : *maximum points for this game : integer* 
+	"VPs player 1" : *VPs achieved by player 1 : integer*
+	"VPs player 2" : *VPs achieved by player 2 : integer*
+}

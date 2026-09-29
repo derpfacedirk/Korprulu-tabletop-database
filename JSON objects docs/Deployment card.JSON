@@ -1,0 +1,29 @@
+{
+	"name" : *Name of the deployment card : String*
+	"Engement size" : *Point level this card is made for : String (Skirmish | Standard | Grand Offensive)*
+	"Objective locations" : {
+		"1" : {
+			"X coord" : *amount of inches from the bottom of the card : integer*
+			"Y coord" : *amount of inches from the left of the card : integer*
+		}
+		"2" : {
+			"X coord" : *amount of inches from the bottom of the card : integer*
+			"Y coord" : *amount of inches from the left of the card : integer*
+		}
+		"3" : {
+			"X coord" : *amount of inches from the bottom of the card : integer | NULL* 
+			"Y coord" : *amount of inches from the left of the card : integer | NULL*
+		}
+		"4" : {
+			"X coord" : *amount of inches from the bottom of the card : integer | NULL*
+			"Y coord" : *amount of inches from the left of the card : integer | NULL*
+		}
+		"5" : {
+			"X coord" : *amount of inches from the bottom of the card : integer*
+			"Y coord" : *amount of inches from the left of the card : integer*
+		}
+	}
+	"Zones of influence" : *The zones of influence on this card : List[Zone of influence Objects]*
+	"image" : *Image link of the card*
+
+}

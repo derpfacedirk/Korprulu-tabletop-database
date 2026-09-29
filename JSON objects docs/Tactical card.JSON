@@ -1,0 +1,23 @@
+{
+	"Name" : *name of the tactical card : String*
+	"Abilities" : {
+					"Any Phase" : *Abilities usable in any phase : List[Ability objects]*,
+					"Movement Phase" : *Abilities usable in the Movement Phase : List[Ability objects]*,
+					"Assault Phase" : *Abilities usable in the Assault Phase : List[Ability objects]*,
+					"Compbat Phase" : *Abilities usable in the combat phase : List[Ability objects]*
+	}
+	"resource" : *amount of CP/BM/PE this card gives : integer*
+	"Unique" : *Is the card Unique : boolean*
+	"Faction card" : *Is the card a Faction card : boolean*
+	"race" : *faction that this unit can be taken in : String (Terran | Zerg | Protoss)*,
+	"subfaction" : *Subfactions this unit can be taken in, NULL means it can be taken in any : List[String] | NULL*
+	"image front" : *image link to card front (Ability side) : String*,
+	"image back" : *image link to card back (picture side) : String*,
+	"slots" : {
+		"core" : *amount of core slots this card gives : integer*
+		"support" : *amount of support slots this card gives : integer*
+		"elite" : *amount of elite slots this card gives : integer*
+		"hero" : *amount of hero slots this card gives : integer*
+		"air" : *amount of air slots this card gives : integer*
+	}
+}
